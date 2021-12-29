@@ -1,0 +1,307 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) {
+.customNavMenu{
+    background-color: white;
+    border-radius:  5px;
+    margin: 7px 0 0 0;
+} 
+.customLogo {
+    width: 40%;
+}
+.customNavMenu li a{
+    text-align: right;
+    color: #01c4f3 !important;
+    padding: 0!important;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+.banner {
+    padding-top: 90px;
+}    
+.bannerContent {
+    text-align: center;
+}
+.bannerContent h1 {
+    font-size: 28px;
+}
+.bannerContent p {
+    font-size: 16px;
+}
+.bannerContentA {
+    margin-top: 16px;
+    width: 100%;
+    height: 50px;
+    position: relative;
+}
+.bannerContentA a {
+    font-size: 16px;
+}
+.bannerContentA a::after {
+    right: 30%;
+    bottom: 35%;
+}
+.bannerContentA a::before {
+    right: 23%;
+    top: 2%;
+}
+.newWidth a::before {
+    right: 24%;
+}
+.discoveryContent {
+    padding: 70px 4% 70px;
+    text-align: center;
+}
+.discoveryContent p {
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+.discoveryContent h2 {
+    padding: 0 0 10px 0;
+}
+.discoveryContent p:first-child {
+    font-size: 16px;
+}
+.custDisp{
+    display: block !important;
+}
+.influencer {
+    margin: 25px 3%;
+}
+.infCon2{
+    width: 100%;
+}
+.project {
+    padding-bottom: 35px;
+}
+.projectcontent {
+    text-align: center;
+    padding: 25px 5% 0;
+}
+.projectcontent p:last-child {
+    margin: 20px 0 35px;
+    color: #7e7e78;
+    font-size: 14px;
+}
+.projectSingle {
+    width: 94%;
+    margin: 0 3% 25px;
+}
+.mInner {
+    padding-right: 0;
+}
+.smallmInner{
+    padding-left: 0 !important;
+}
+.footer {
+    padding: 35px 0;
+}
+.fInner1 i {
+    font-size: 27px;
+    margin: 10px 0 0 9px;
+}
+.subFooter {
+    padding: 20px 0;
+}
+
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+ 
+ 
+}
+ /* Medium devices (landscape phones, 576px and up) */
+ @media (min-width: 768px) and (max-width: 991.98px) { 
+ .customNavMenu{
+    background-color: white;
+    border-radius:  5px;
+    margin-right: 15px;
+    margin-top: 7px;
+} 
+.customLogo {
+    width: 20%;
+}
+.customNavMenu li a{
+    text-align: right;
+    color: #01c4f3 !important;
+    padding: 0!important;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+.customNavToggle{
+    margin-right: 15px;
+}
+.mediumNav{
+    padding: 0 !important;
+}
+.bannerContent {
+    padding: 0;
+}
+.bannerContent h1 {
+    font-size: 35px;
+}
+.bannerContent p {
+    padding: 2% 0 2% 0;
+    font-size: 18px;
+}
+.bannerContentA {
+    margin-top: 10px;
+    width: 153px;
+}
+.bannerContentA a {
+    font-size: 18px;
+}
+.bannerContentA a::before {
+    top: 2%;
+}
+.bannerContentA a::after {
+    bottom: 32%;
+}
+.bannerImage img {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+.influencer {
+    margin: 20px;
+}
+.infCon2 {
+    margin-top: 20px;
+}
+.discoveryContent {
+    padding: 55px 0 55px 3%;
+}
+.mInner {
+    padding-right: 0%;
+}
+.discoveryContent h2 {
+    padding: 0 0 10px 0;
+}
+.discoveryContent p {
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+.mdBCAClone{
+    width: 46.5%;
+}
+.project {
+    padding-bottom: 60px;
+}
+.projectcontent {
+    padding: 35px 5% 0;
+}
+.projectSingle{
+    width: 48%;
+    margin-bottom: 30px;
+}
+.pcspan {
+    left: 10% !important;
+}
+.mdwidth{
+    width: 20.5%;
+}
+.footer {
+    padding: 35px 0;
+}
+.footerContent {
+    padding-left: 30%;
+}
+.fInner1 i {
+    font-size: 33px;
+    margin: 7px 0 0 25px;
+}
+.fInner1 {
+    text-align: center;
+}
+.footerP2 a {
+    margin-right: 4%;
+ 
+}
+}
+ /* Large devices (desktops, 992px and up) */   
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+ .customLogo {
+    width: 15%;
+}
+.customNavMenu li a:last-child {
+    font-size: 15px;
+    padding-left: 0 !important;
+    padding-right: 18px !important;
+}
+.bannerContent {
+    padding-top: 4%;
+}
+.bannerContent h1 {
+    font-size: 38px;
+}
+.bannerContent p {
+    font-size: 18px;
+}
+.bannerContentA {
+    margin-top: 10px;
+    width: 40.5%;
+}
+.bannerContentA a::before {
+    top: 3%;
+}
+.bannerContentA a::after {
+    right: 11%;
+    bottom: 26%;
+}
+.discoveryContent {
+    padding: 75px 0 75px 0;
+}
+.discoveryContent p {
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.discoveryContent h2 {
+    padding: 0px 0 10px 0;
+}
+.discLGwidth {
+    width: 37.5%;
+}
+.infLGPad{
+    padding-left: 5%;
+}
+.lgBCA{
+    width: 20.2%;
+}
+.infCon2{
+    padding-left: 3%;
+}
+.pcspan {
+    left: 14% !important;
+}
+.projectcontent {
+    padding: 30px 5% 0;
+}
+.smallmInner{
+    padding: 0 0 0 6%;
+}
+.mdwidth{
+    width: 19%;
+}
+.footer {
+    padding: 60px 0;
+}
+.footerContent {
+    padding-left: 5%;
+}
+.footerP2 a {
+    margin-right: 7%;
+}
+ 
+}
+
+ /*Extra Large devices (desktops, 1200px and up) */
+ @media (min-width: 1200px) and (max-width: 1399.98px) {
+ 
+}
+
+/* Extra extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1400px) {  
+    .mInner {
+    padding-right: 50%;
+}
+}

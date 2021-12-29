@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+}
+.headerANDbanner{
+    background-image: linear-gradient(to right,#04288f, #01caf7);
+}
+
+
+/* Header Style Start */
+.headerSticky{
+    width: 100%;
+    padding-top: 30px;
+    position: fixed;
+    top: 0;
+    background-color: transparent;
+    z-index: 5;
+}
+.customLogo{
+    width: 12%;
+}
+.customNavMenu li a{
+    padding: 0 20px !important;
+    font-weight: 700;
+    color: white !important;
+    text-transform: uppercase;
+    transition: .5s;
+}
+.customNavMenu li a:last-child{
+    padding-right: 0 !important;
+}
+.customNavMenu li a:hover{
+    font-weight: 900;
+    transform: scale(1.01);
+    color: #0352aa !important;
+}
+.customNavToggle{
+    background-color: white;
+    padding: 0 5px;
+    margin-right: 5px;
+}
+/* Header Style End */
+
+/* Banner Style Start */
+.banner{
+    padding-top: 120px;
+}
+.bannerContent{
+    padding-top: 8%;
+}
+.bannerContent h1{
+    font-size: 55px;
+    color: white;
+}
+.bannerContent p{
+    margin: 0;
+    padding: 6% 0 2% 0;
+    font-size: 23px;
+    color: white;
+}
+.banConPSpan{  
+    color: #8de4c5;
+}
+
+.bannerImage img{
+    width: 100%;
+}
+
+.bannerContentA{
+    margin-top: 20px;
+    width: 185px;
+    height: 50px;
+    position: relative;
+}
+.bannerContentA a{
+    font-size: 22px;
+    color: #01c4f3;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.bannerContentA a::before,
+.bannerContentA a::after {
+  position: absolute;
+  transition: all .35s ease;
+}
+.bannerContentA a::before {
+    font-family: "Font Awesome 5 Free";
+    content: '\f35a';
+    right: -6%;
+    top:3%;
+    opacity: 1;
+}
+.bannerContentA a::after {
+    font-size: 30px;
+    content: '\27f6';
+    right: 11%;
+    bottom: 25%;
+    opacity: 0;
+}
+.bannerContentA a:hover:before{
+    opacity: 0;
+}
+.bannerContentA a:hover:after{
+    transform: translate(112%,0%);
+    opacity: 1;
+}
+.bannerContentA a:hover {
+    transform: scale(1.1) !important;
+  color: #d20264;
+}
+/* Banner Style End */
+
+/* DIscovery Style Start */
+.discovery{
+    background-image: url(../images/dis2.jpg);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+    overflow-x: hidden !important;
+}
+.discoveryContent{
+    padding: 145px 0 145px 7%;
+}
+.discoveryContent h2{
+    padding: 0 0 15px 0;
+    font-weight: 300;
+    color: white;
+}
+.discoveryContent h2 i{
+    margin-right: 10px;
+}
+.discoveryContent p:first-child{
+    font-size: 17px;
+    font-weight: 500;
+    color: #01c4f3;
+}
+.discoveryContent p{
+    font-size: 35px;
+    font-weight: 500;
+    padding-bottom: 25px;
+    color: white;
+}
+.discoveryContent span{
+    font-size: 14px;
+    border-radius: 20px;
+    padding: 5px;
+    color: white;
+    background-color: #01c4f3;
+}
+/* DIscovery Style End */
+
+/* Influencer Style Start */
+.influencer{
+    overflow-x: hidden !important;
+    margin: 30px;
+}
+.infCon1{
+    background-image: url(../images/dis8.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.infCon2{
+    background-image: url(../images/dis1.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 49%;
+    margin-top: 30px ;
+    padding-right: 11%;
+}
+/* Influencer Style End */
+
+/* Project Style Start */
+.project{
+    overflow-x: hidden !important;
+    padding-bottom: 120px;
+}
+.projectcontent{
+    text-align: center;
+    padding: 60px 14% 0;
+}
+.projectcontent p:last-child{
+    margin: 20px 0 45px;
+}
+.projectSingle{
+    position: relative;
+    padding: 0;
+    width: 23%;
+    height: 260px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: hidden;
+}
+.projectSingle img{
+    border-radius: 5px;
+    height: 260px;
+    transition: .6s;
+}
+.projectSingle img:hover{
+    transform: scale(1.3,1.3);
+}
+.projectSingle span{
+    position: absolute;
+    left:0;
+    bottom: 13%;
+    padding: 5% 7% 7%;
+    color: white;
+    background-color: rgb(18 17 17 / 80%);
+}
+.pcspan{
+    font-size: 12px !important;
+    left: 11% !important;
+    bottom: 7.5% !important;
+    padding: 2% 4% !important;
+    background-color: #01c4f3 !important;
+}
+/* Project Style End */
+
+/* Marketing Style Start */
+.marketing{
+    overflow-x: hidden !important;
+    background-image: url(../images/dis6.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.mInner{
+    background: linear-gradient(to right, rgba(4 44 146/50%), rgba(2 193 242/50%));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-right: 61%;
+}
+.markCont{
+    padding: 145px 0 145px 22%;
+}
+/* Marketing Style End */
+
+
+/* Footer Style Start */
+.footer{
+    overflow-x: hidden !important;
+    background-image: linear-gradient(to right,#04288f, #01caf7);
+    padding: 70px 0;
+    margin-top: 30px;
+}
+.footerContent{
+    overflow: hidden;
+    padding-left: 10%;
+    padding-right: 0;
+}
+.fInner1{
+    float: left;
+    width: 15%;
+}
+.fInner1 i{
+    font-size: 36px;
+    margin: 6px 0 0 5px;
+    color: white;
+}
+.fInner2{
+    float: right;
+    width: 85%;
+}
+.footerP1{
+    margin: 0;
+    color: white;
+    font-weight: 300;
+}
+.footerP2{
+    color: white;
+    font-weight: 700;
+}
+.footerP2 a{
+    margin-right: 5%;
+    color: white;
+}
+.footerP2 a:hover{
+    color: #d20264;
+}
+.subFooter{
+    overflow-x: hidden !important;
+    background-color: black;
+    color: rgb(116, 116, 116);
+    padding: 35px 0;
+    font-size: 14px;
+}
+
+/* Footer Style End */
